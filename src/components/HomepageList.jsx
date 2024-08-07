@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import styles from './HomepageList.module.css';
 
 function HomepageList() {
@@ -20,9 +19,7 @@ function HomepageList() {
           </span>
         </div>
         <div>
-          <Link to="/details">
-            <button className={styles.cta}>Learn more</button>
-          </Link>
+          <button className={styles.cta}>Learn more</button>
         </div>
       </li>
       <li className={styles.homepageCard}>
@@ -40,9 +37,7 @@ function HomepageList() {
           </span>
         </div>
         <div>
-          <Link to="/details">
-            <button className={styles.cta}>Learn more</button>
-          </Link>
+          <button className={styles.cta}>Learn more</button>
         </div>
       </li>
       <li className={styles.homepageCard}>
@@ -63,9 +58,7 @@ function HomepageList() {
           </span>
         </div>
         <div>
-          <Link to="/details">
-            <button className={styles.cta}>Learn more</button>
-          </Link>
+          <button className={styles.cta}>Learn more</button>
         </div>
       </li>
       <li className={styles.homepageCard}>
@@ -85,9 +78,7 @@ function HomepageList() {
           </span>
         </div>
         <div>
-          <Link to="/details">
-            <button className={styles.cta}>Learn more</button>
-          </Link>
+          <button className={styles.cta}>Learn more</button>
         </div>
       </li>
     </ul>

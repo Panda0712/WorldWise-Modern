@@ -5,7 +5,6 @@ import Product from './pages/Product';
 import Pricing from './pages/Pricing';
 import Login from './pages/Login';
 import AppLayout from './pages/AppLayout';
-import Details from './pages/Details';
 import PageNotFound from './pages/PageNotFound';
 import CitiesList from './components/CitiesList';
 import CountriesList from './components/CountriesList';
@@ -41,7 +40,6 @@ export default function App() {
                 <Route path="countries" element={<CountriesList />} />
                 <Route path="form" element={<Form />} />
               </Route>
-              <Route path="details" element={<Details />} />
               <Route path="*" element={<PageNotFound />} />
             </Routes>
           </BrowserRouter>

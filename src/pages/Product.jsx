@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import PageNav from '../components/PageNav';
 import styles from './Product.module.css';
 
@@ -206,9 +205,7 @@ function Product() {
                 </span>
               </div>
               <div>
-                <Link to="/details">
-                  <button className={styles.cta}>Watch now</button>
-                </Link>
+                <button className={styles.cta}>Watch now</button>
               </div>
             </li>
             <li className={styles.productCard}>
@@ -226,9 +223,7 @@ function Product() {
                 </span>
               </div>
               <div>
-                <Link to="/details">
-                  <button className={styles.cta}>Watch now</button>
-                </Link>
+                <button className={styles.cta}>Watch now</button>
               </div>
             </li>
             <li className={styles.productCard}>
@@ -246,9 +241,7 @@ function Product() {
                 </span>
               </div>
               <div>
-                <Link to="/details">
-                  <button className={styles.cta}>Watch now</button>
-                </Link>
+                <button className={styles.cta}>Watch now</button>
               </div>
             </li>
             <li className={styles.productCard}>
@@ -266,9 +259,7 @@ function Product() {
                 </span>
               </div>
               <div>
-                <Link to="/details">
-                  <button className={styles.cta}>Watch now</button>
-                </Link>
+                <button className={styles.cta}>Watch now</button>
               </div>
             </li>
             <li className={styles.productCard}>
@@ -286,9 +277,7 @@ function Product() {
                 </span>
               </div>
               <div>
-                <Link to="/details">
-                  <button className={styles.cta}>Watch now</button>
-                </Link>
+                <button className={styles.cta}>Watch now</button>
               </div>
             </li>
           </ul>
@@ -316,9 +305,7 @@ function EpisodesList() {
             <span>{ep.description}</span>
           </div>
           <div>
-            <Link to="/details">
-              <button className={styles.cta}>Watch now</button>
-            </Link>
+            <button className={styles.cta}>Watch now</button>
           </div>
         </li>
       ))}
