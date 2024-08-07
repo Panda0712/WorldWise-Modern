@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+const apiUrl = import.meta.env.VITE_API_URL;
+
 import { createContext, useEffect, useState } from 'react';
 
 const CityContext = createContext();
@@ -10,7 +12,7 @@ function CityProvider({ children }) {
   async function handleAddCity(cityData) {
     setIsLoading(true);
     try {
-      const res = await fetch('/api/cities', {
+      const res = await fetch(`${apiUrl}/cities`, {
         method: 'POST',
         body: JSON.stringify(cityData),
         headers: {
@@ -48,7 +50,7 @@ function CityProvider({ children }) {
     setIsLoading(true);
     async function fetchCities() {
       try {
-        const res = await fetch('/api/cities');
+        const res = await fetch(`${apiUrl}/cities`);
         const data = await res.json();
         setCities(data);
       } catch (err) {
