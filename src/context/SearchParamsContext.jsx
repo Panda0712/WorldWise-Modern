@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+const apiUrl = import.meta.env.VITE_API_URL;
+
 import { createContext, useState } from 'react';
 import { useCities } from './useCities';
 
@@ -12,7 +14,7 @@ function SearchParamsProvider({ children }) {
     if (currentCity.id === Number(id)) return;
     setIsLoading(true);
     try {
-      const res = await fetch(`/api/cities/${id}`);
+      const res = await fetch(`${apiUrl}/cities/${id}`);
       if (!res.ok) throw new Error(`Error fetching city data`);
 
       const data = await res.json();

@@ -35,7 +35,7 @@ function CityProvider({ children }) {
   async function handleDeleteCity(id) {
     setIsLoading(true);
     try {
-      await fetch(`/api/cities/${id}`, {
+      await fetch(`${apiUrl}/cities/${id}`, {
         method: 'DELETE',
       });
     } catch (err) {
