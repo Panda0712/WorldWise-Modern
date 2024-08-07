@@ -8,6 +8,7 @@ Setup the WorldWise Modern Project
 + Outlet for cities list
 + Outlet for countries list
 + Use the React Leaflet map to build an interactive map
++ Storing state on url
 + Fetching each city data
 + Handle add new city when clicked map, show form and fill the data
 + Handle delete city
