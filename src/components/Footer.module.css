@@ -1,0 +1,17 @@
+@media screen and (max-width: 900px) {
+  .footer {
+    display: none !important;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer h4 {
+  color: #778899;
+  font-weight: 500;
+  position: absolute;
+  bottom: 20px;
+}

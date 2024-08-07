@@ -1,0 +1,117 @@
+@media screen and (max-width: 900px) {
+  .pricingCard {
+    width: 300px !important;
+  }
+
+  .pricingWrapper h2 {
+    font-size: 18px;
+  }
+
+  .pricingWrapper span {
+    font-size: 16px;
+  }
+
+  .pricingOffer h4 {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
+    font-size: 18px;
+  }
+
+  .pricingWrapper h2 {
+    font-size: 16px;
+  }
+
+  .pricingWrapper span {
+    font-size: 14px;
+  }
+
+  .pricingOffer h4 {
+    font-size: 14px;
+  }
+
+  .pricingCard {
+    width: 200px !important;
+  }
+}
+
+.heading {
+  text-align: center;
+  background: #708090;
+  padding: 15px 20px;
+  color: #fff;
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 40px 20px;
+  gap: 30px;
+}
+
+.pricingCard {
+  position: relative;
+  width: 350px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pricingCard:hover {
+  transform: translateY(-5px);
+}
+
+.pricingWrapper {
+  width: 100%;
+  background: #4169e1;
+  padding: 15px 10px;
+}
+
+.pricingCard h2 {
+  color: #fff;
+}
+
+.pricingCard p {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px;
+}
+
+.pricingWrapper span {
+  color: #c0c0c0;
+}
+
+.pricingOffer {
+  padding: 20px 10px;
+  height: 180px;
+}
+
+.pricingOffer h4 {
+  font-weight: 500;
+}
+
+.cta {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  background: #cd5c5c;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.cta:hover {
+  opacity: 0.9;
+}

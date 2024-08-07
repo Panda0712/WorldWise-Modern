@@ -1,0 +1,28 @@
+{
+  "cities": [
+    {
+      "cityName": "Ho Chi Minh City",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-08-04T12:00:30.599Z",
+      "notes": "",
+      "position": {
+        "lat": "10.796548481973716",
+        "lng": "106.60892486572266"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Vung Tau",
+      "country": "Viet Nam",
+      "emoji": "🇻🇳",
+      "date": "2024-08-04T17:07:36.918Z",
+      "notes": "",
+      "position": {
+        "lat": "10.361022072765163",
+        "lng": "107.07378387451172"
+      },
+      "id": 98443205
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+.countriesList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  color: #fff;
+  padding: 20px;
+  gap: 20px;
+}
+
+.countriesItem {
+  background: #778899;
+  padding: 10px 30px;
+  width: 180px;
+  border-radius: 10px;
+  border-left: 8px solid #90ee90;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.countriesItem p {
+  text-align: center;
+}

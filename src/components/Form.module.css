@@ -1,0 +1,34 @@
+.form {
+  color: #fff;
+  padding: 20px;
+  margin: 20px 40px;
+  background: #778899;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.formLoading {
+  opacity: 0.5;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.datePicker {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -1,0 +1,27 @@
+.city {
+  background: #778899;
+  margin: 20px 40px;
+  border-radius: 5px;
+  padding: 20px;
+  color: #fff;
+}
+
+.cityItem {
+  margin-bottom: 15px;
+}
+
+.cityItem h2 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #d3d3d3;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.cityItem p {
+  font-size: 17px;
+}
+
+.cityItem a {
+  color: #90ee90;
+}

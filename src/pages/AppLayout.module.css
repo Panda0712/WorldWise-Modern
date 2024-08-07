@@ -1,0 +1,9 @@
+@media screen and (max-width: 900px) {
+  .appLayout {
+    flex-direction: column;
+  }
+}
+
+.appLayout {
+  display: flex;
+}

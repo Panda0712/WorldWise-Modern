@@ -1,0 +1,50 @@
+.login {
+  padding: 8px 20px;
+  border-radius: 10px;
+  border: none;
+  background: #8fbc8b;
+  font-weight: 500;
+}
+
+.primary,
+.location {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background: #8fbc8b;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.location {
+  position: absolute;
+  bottom: 20px;
+  z-index: 1000;
+  font-size: 16px;
+}
+
+.back {
+  background: transparent;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 2px solid #d3d3d3;
+  margin-top: 10px;
+}
+
+.login,
+.back,
+.primary,
+.location {
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.login:hover,
+.back:hover,
+.primary:hover,
+.location:hover {
+  opacity: 0.9;
+}

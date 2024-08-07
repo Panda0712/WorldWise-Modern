@@ -1,0 +1,58 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+  background: #90ee90;
+  gap: 40px;
+}
+
+.navLogo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navLogo span {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.nav img {
+  width: 50px;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav a:link,
+.nav a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navLink {
+  background: #008080;
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navLink:hover {
+  opacity: 0.9;
+}

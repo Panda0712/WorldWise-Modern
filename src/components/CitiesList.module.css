@@ -1,0 +1,110 @@
+@media screen and (max-width: 600px) {
+  .citiesItem {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .citiesItem div:first-child span {
+    font-size: 14px;
+  }
+
+  .deleteBtn {
+    width: 15px !important;
+    height: 15px !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .citiesItem {
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+  }
+}
+
+.citiesList {
+  padding: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 570px;
+  overflow: auto;
+}
+
+.citiesList::-webkit-scrollbar {
+  width: 3px;
+}
+
+.citiesList::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+
+.citiesList::-webkit-scrollbar-thumb {
+  background-color: #3498db;
+  border-radius: 6px;
+  border: 3px solid #f0f0f0;
+}
+
+.citiesList::-webkit-scrollbar-thumb:hover {
+  background-color: #2980b9;
+}
+
+.citiesItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #778899;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 20px;
+  border-radius: 10px;
+  border-left: 8px solid #90ee90;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.citiesItemActive {
+  border: 3px solid #90ee90;
+  border-left: 8px solid #90ee90;
+}
+
+.citiesItem:hover {
+  background: #2f4f4f;
+}
+
+.citiesItem div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.citiesItem div:last-child {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.citiesItem div:last-child span {
+  font-size: 14px;
+}
+
+.deleteBtn {
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: black;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.deleteBtn:hover {
+  background: #dc143c;
+}

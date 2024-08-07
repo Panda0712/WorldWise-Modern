@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px 40px;
+  background: #90ee90;
+}
+
+.nav span {
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.nav img {
+  width: 50px;
+  object-fit: cover;
+  display: block;
+  cursor: pointer;
+}

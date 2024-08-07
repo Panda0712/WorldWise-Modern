@@ -1,0 +1,22 @@
+.homepage {
+  background: #708090;
+  color: #fff;
+  padding: 30px 40px;
+}
+
+.homepage h2 {
+  text-align: center;
+}
+
+.homepage p {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .homepage p {
+    width: 90%;
+  }
+}
