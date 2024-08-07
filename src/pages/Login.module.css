@@ -30,4 +30,8 @@
   .form h2 {
     font-size: 20px;
   }
+
+  .formGroup input {
+    max-width: 190px;
+  }
 }

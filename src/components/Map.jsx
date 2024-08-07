@@ -20,7 +20,7 @@ import Spinner from './Spinner';
 function Map() {
   const navigate = useNavigate();
   const { cities } = useCities();
-  const [position, setPosition] = useState([40, -2]);
+  const [position, setPosition] = useState([10.7835251, 106.6401945]);
 
   const [lat, lng] = usePosition();
 
@@ -33,7 +33,7 @@ function Map() {
   function handleUseLocation() {
     if (isLoading) return <Spinner />;
     getPosition();
-    const { lat, lng } = personalLocation;
+    const { lat, lng } = personalLocation || {};
     if (lat && lng) {
       setPosition([lat, lng]);
       navigate(`form?lat=${lat}&lng=${lng}`);
@@ -81,7 +81,9 @@ function Map() {
 
 function ChangeCenter({ position }) {
   const map = useMap();
-  map.setView(position);
+  useEffect(() => {
+    map.setView(position);
+  }, [map, position]);
   return null;
 }
 

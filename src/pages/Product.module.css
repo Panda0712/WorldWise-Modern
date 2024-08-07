@@ -23,6 +23,11 @@
     font-size: 18px;
   }
 
+  .productCardContent {
+    padding: 40px 10px !important;
+    gap: 20px !important;
+  }
+
   .productCard {
     width: 150px !important;
   }
