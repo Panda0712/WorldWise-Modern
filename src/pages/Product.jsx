@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import PageNav from '../components/PageNav';
 import styles from './Product.module.css';
 
@@ -173,7 +174,7 @@ const imageArray = [
   },
 ];
 
-function Product() {
+const Product = memo(function Product() {
   return (
     <div>
       <PageNav />
@@ -292,7 +293,7 @@ function Product() {
       </div>
     </div>
   );
-}
+});
 
 function EpisodesList() {
   return (

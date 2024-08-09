@@ -5,6 +5,7 @@ import { useUrlSearch } from '../context/useUrlSearch';
 import Spinner from './Spinner';
 import Footer from './Footer';
 import Message from './Message';
+import { memo } from 'react';
 
 function formatDate(dateString) {
   const date = new Date(dateString);
@@ -12,7 +13,7 @@ function formatDate(dateString) {
   return date.toLocaleDateString('en-US', options);
 }
 
-function CitiesList() {
+const CitiesList = memo(function CitiesList() {
   const { cities, isLoading, handleDeleteCity } = useCities();
   const { currentCity, setCurrentCity } = useUrlSearch();
 
@@ -60,6 +61,6 @@ function CitiesList() {
       <Footer />
     </>
   );
-}
+});
 
 export default CitiesList;
